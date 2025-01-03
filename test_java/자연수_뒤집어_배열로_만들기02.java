@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
-public class Test02 {
+// 자연수 뒤집어 배열로 만들기
+public class 자연수_뒤집어_배열로_만들기02{
     public int[] solution(long n) {
         char[] c = String.valueOf(n).toCharArray();
         int size = c.length;
@@ -22,7 +23,7 @@ public class Test02 {
 
     public static void main(String[] args) {
         long n = 12345;
-        int[] result = new Test02().solution(n);
+        int[] result = new 자연수_뒤집어_배열로_만들기02().solution(n);
         System.out.println(Arrays.toString(result));
     }
 }
