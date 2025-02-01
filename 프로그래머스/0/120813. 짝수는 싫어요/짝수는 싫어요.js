@@ -1,3 +1,7 @@
 function solution(n) {
-    return Array.from({ length: n }, (_, i) => i + 1).filter(num => num % 2 === 1);
+    var answer = [];
+
+    for (let i = 1; i<=n; i+=2) answer.push(i)
+
+    return answer;
 }
